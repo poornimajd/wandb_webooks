@@ -1,0 +1,19 @@
+{"time":"2024-11-27T12:18:07.028345152-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-27T12:18:07.028384779-05:00","level":"INFO","msg":"created symlink","path":"/home/danfossautonomypc/segmentation/wandb_segment/wandb/run-20241127_121807-mount_upload/logs/debug-core.log"}
+{"time":"2024-11-27T12:18:07.142855381-05:00","level":"INFO","msg":"created new stream","id":"mount_upload"}
+{"time":"2024-11-27T12:18:07.142903457-05:00","level":"INFO","msg":"stream: started","id":"mount_upload"}
+{"time":"2024-11-27T12:18:07.143096426-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"mount_upload"}
+{"time":"2024-11-27T12:18:07.143116435-05:00","level":"INFO","msg":"handler: started","stream_id":"mount_upload"}
+{"time":"2024-11-27T12:18:07.14322634-05:00","level":"INFO","msg":"sender: started","stream_id":"mount_upload"}
+{"time":"2024-11-27T12:18:07.428859971-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T12:18:08.552135789-05:00","level":"INFO","msg":"stream: closing","id":"mount_upload"}
+{"time":"2024-11-27T12:18:08.552207021-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T12:18:08.553256278-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T12:18:09.659343259-05:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-27T12:18:09.659373749-05:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-27T12:18:09.65938371-05:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-27T12:18:09.710215929-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T12:18:09.836388823-05:00","level":"INFO","msg":"handler: closed","stream_id":"mount_upload"}
+{"time":"2024-11-27T12:18:09.836427264-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mount_upload"}
+{"time":"2024-11-27T12:18:09.836466843-05:00","level":"INFO","msg":"sender: closed","stream_id":"mount_upload"}
+{"time":"2024-11-27T12:18:09.836507163-05:00","level":"INFO","msg":"stream: closed","id":"mount_upload"}

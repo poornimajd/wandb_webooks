@@ -1,0 +1,12 @@
+{"time":"2024-11-26T14:15:37.143957792-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T14:15:37.144003996-05:00","level":"INFO","msg":"created symlink","path":"/home/danfossautonomypc/segmentation/wandb_segment/wandb/run-20241126_141537-use_remote_data/logs/debug-core.log"}
+{"time":"2024-11-26T14:15:37.260761984-05:00","level":"INFO","msg":"created new stream","id":"use_remote_data"}
+{"time":"2024-11-26T14:15:37.260818993-05:00","level":"INFO","msg":"stream: started","id":"use_remote_data"}
+{"time":"2024-11-26T14:15:37.26086212-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"use_remote_data"}
+{"time":"2024-11-26T14:15:37.260887133-05:00","level":"INFO","msg":"handler: started","stream_id":"use_remote_data"}
+{"time":"2024-11-26T14:15:37.260865624-05:00","level":"INFO","msg":"sender: started","stream_id":"use_remote_data"}
+{"time":"2024-11-26T14:15:37.526241469-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-11-26T14:15:39.712412847-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-11-26T14:15:43.284301958-05:00","level":"INFO","msg":"stream: closing","id":"use_remote_data"}
+{"time":"2024-11-26T14:15:44.390253136-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}
+{"time":"2024-11-26T14:15:53.356586132-05:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql"}

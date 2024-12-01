@@ -1,0 +1,7 @@
+The device being used is: cuda
+
+Changed the code!!!!!!!!!!
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m:   37 of 37 files downloaded. 
+/home/danfossautonomypc/segmentation/wandb_segment/artifacts/test-dataset:v1
+/home/danfossautonomypc/segmentation/wandb_segment/artifacts/test-dataset:v1test_data/masks/

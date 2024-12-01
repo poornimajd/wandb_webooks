@@ -1,0 +1,203 @@
+The device being used is: cuda
+
+Training Started.....
+The training images
+The original masks
+Predicted masks
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.4336,  Training IoU: 0.000,
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.4287,  Training IoU: 0.000,
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.4132,  Training IoU: 0.000,
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.3915,  Training IoU: 0.000,
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.3688,  Training IoU: 0.000,
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.3457,  Training IoU: 0.005,
+Epoch 0 : Lr (0.001)
+		 Training Loss: 0.1039,  Training IoU: 0.012,
+		 Validation Loss: 2.6741,  Validation IoU: 0.000
+Validation loss decreased (inf --> 2.674066). Saving model ...
+
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.4223,  Training IoU: 0.000,
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.4231,  Training IoU: 0.000,
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.4191,  Training IoU: 0.000,
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.4144,  Training IoU: 0.000,
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.4091,  Training IoU: 0.000,
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.4026,  Training IoU: 0.000,
+Epoch 1 : Lr (0.001)
+		 Training Loss: 0.1268,  Training IoU: 0.005,
+		 Validation Loss: 2.5221,  Validation IoU: 0.051
+Validation loss decreased (2.674066 --> 2.522068). Saving model ...
+
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.3868,  Training IoU: 0.219,
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.3856,  Training IoU: 0.219,
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.3794,  Training IoU: 0.206,
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.3721,  Training IoU: 0.208,
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.3643,  Training IoU: 0.209,
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.3556,  Training IoU: 0.209,
+Epoch 2 : Lr (0.001)
+		 Training Loss: 0.1091,  Training IoU: 0.213,
+		 Validation Loss: 2.2882,  Validation IoU: 0.076
+Validation loss decreased (2.522068 --> 2.288199). Saving model ...
+
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.3273,  Training IoU: 0.256,
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.3164,  Training IoU: 0.356,
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.2992,  Training IoU: 0.433,
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.2807,  Training IoU: 0.477,
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.2603,  Training IoU: 0.502,
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.2417,  Training IoU: 0.518,
+Epoch 3 : Lr (0.001)
+		 Training Loss: 0.0703,  Training IoU: 0.524,
+		 Validation Loss: 1.8544,  Validation IoU: 0.066
+Validation loss decreased (2.288199 --> 1.854396). Saving model ...
+
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.1924,  Training IoU: 0.631,
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.1672,  Training IoU: 0.644,
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.1471,  Training IoU: 0.646,
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.1344,  Training IoU: 0.648,
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.1175,  Training IoU: 0.654,
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.1159,  Training IoU: 0.654,
+Epoch 4 : Lr (0.001)
+		 Training Loss: 0.0326,  Training IoU: 0.654,
+		 Validation Loss: 1.8397,  Validation IoU: 0.000
+Validation loss decreased (1.854396 --> 1.839738). Saving model ...
+
+The training images
+The original masks
+Predicted masks
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.1261,  Training IoU: 0.644,
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.1260,  Training IoU: 0.641,
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.1228,  Training IoU: 0.625,
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.1076,  Training IoU: 0.630,
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.0994,  Training IoU: 0.636,
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.0848,  Training IoU: 0.645,
+Epoch 5 : Lr (0.001)
+		 Training Loss: 0.0217,  Training IoU: 0.648,
+		 Validation Loss: 2.4367,  Validation IoU: 0.078
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0767,  Training IoU: 0.688,
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0787,  Training IoU: 0.691,
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0759,  Training IoU: 0.681,
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0678,  Training IoU: 0.680,
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0516,  Training IoU: 0.684,
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0537,  Training IoU: 0.686,
+Epoch 6 : Lr (0.001)
+		 Training Loss: 0.0201,  Training IoU: 0.685,
+		 Validation Loss: 2.6847,  Validation IoU: 0.063
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0445,  Training IoU: 0.681,
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0504,  Training IoU: 0.694,
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0429,  Training IoU: 0.696,
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0385,  Training IoU: 0.697,
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0415,  Training IoU: 0.698,
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0401,  Training IoU: 0.695,
+Epoch 7 : Lr (0.001)
+		 Training Loss: 0.0115,  Training IoU: 0.690,
+		 Validation Loss: 3.7814,  Validation IoU: 0.000
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0361,  Training IoU: 0.644,
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0327,  Training IoU: 0.644,
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0294,  Training IoU: 0.658,
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0288,  Training IoU: 0.669,
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0271,  Training IoU: 0.679,
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0284,  Training IoU: 0.688,
+Epoch 8 : Lr (0.001)
+		 Training Loss: 0.0068,  Training IoU: 0.688,
+		 Validation Loss: 3.7459,  Validation IoU: 0.000
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0266,  Training IoU: 0.669,
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0290,  Training IoU: 0.669,
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0182,  Training IoU: 0.688,
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0188,  Training IoU: 0.697,
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0166,  Training IoU: 0.700,
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0192,  Training IoU: 0.707,
+Epoch 9 : Lr (0.001)
+		 Training Loss: 0.0061,  Training IoU: 0.708,
+		 Validation Loss: 3.7447,  Validation IoU: 0.000
+The training images
+The original masks
+Predicted masks
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0190,  Training IoU: 0.706,
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0164,  Training IoU: 0.709,
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0194,  Training IoU: 0.704,
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0139,  Training IoU: 0.712,
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0158,  Training IoU: 0.712,
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0144,  Training IoU: 0.715,
+Epoch 10 : Lr (0.001)
+		 Training Loss: 0.0067,  Training IoU: 0.713,
+		 Validation Loss: 3.1088,  Validation IoU: 0.019
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0165,  Training IoU: 0.706,
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0135,  Training IoU: 0.731,
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0152,  Training IoU: 0.737,
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0172,  Training IoU: 0.739,
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0104,  Training IoU: 0.745,
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0129,  Training IoU: 0.749,
+Epoch 11 : Lr (0.001)
+		 Training Loss: 0.0045,  Training IoU: 0.749,
+		 Validation Loss: 3.5620,  Validation IoU: 0.000
+Finished Training

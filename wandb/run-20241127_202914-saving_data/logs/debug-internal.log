@@ -1,0 +1,20 @@
+{"time":"2024-11-27T20:29:14.384449578-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-27T20:29:14.384496437-05:00","level":"INFO","msg":"created symlink","path":"/home/danfossautonomypc/segmentation/wandb_segment/wandb/run-20241127_202914-saving_data/logs/debug-core.log"}
+{"time":"2024-11-27T20:29:14.498370064-05:00","level":"INFO","msg":"created new stream","id":"saving_data"}
+{"time":"2024-11-27T20:29:14.498425306-05:00","level":"INFO","msg":"stream: started","id":"saving_data"}
+{"time":"2024-11-27T20:29:14.498531112-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"saving_data"}
+{"time":"2024-11-27T20:29:14.498567116-05:00","level":"INFO","msg":"sender: started","stream_id":"saving_data"}
+{"time":"2024-11-27T20:29:14.498649912-05:00","level":"INFO","msg":"handler: started","stream_id":"saving_data"}
+{"time":"2024-11-27T20:29:14.861887734-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T20:29:15.40035554-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T20:29:15.401295688-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T20:29:16.365709499-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact test-dataset","runtime_seconds":1.005477734,"subtasks":[{"desc":"0016E5_08101.png","runtime_seconds":0.623478433,"progress":"192.0KB/935.5KB"},{"desc":"0016E5_08151.png","runtime_seconds":0.62346054,"progress":"336.0KB/921.1KB"},{"desc":"0016E5_08141.png","runtime_seconds":0.623274092,"progress":"208.0KB/923.3KB"},{"desc":"0016E5_08115.png","runtime_seconds":0.623248676,"progress":"208.0KB/949.4KB"},{"desc":"0016E5_08147.png","runtime_seconds":0.623093426,"progress":"176.0KB/924.1KB"},{"desc":"0016E5_08143.png","runtime_seconds":0.623082583,"progress":"240.0KB/927.1KB"},{"desc":"0016E5_08095.png","runtime_seconds":0.622716674,"progress":"64.0KB/930.2KB"},{"desc":"0016E5_08103.png","runtime_seconds":0.622688883,"progress":"80.0KB/943.3KB"},{"desc":"0016E5_08125.png","runtime_seconds":0.622577,"progress":"80.0KB/932.4KB"},{"desc":"0016E5_08091.png","runtime_seconds":0.622570456,"progress":"80.0KB/933.0KB"}]}],"total_operations":1}}
+{"time":"2024-11-27T20:29:24.051762245-05:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-27T20:29:24.051787571-05:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-27T20:29:24.051791532-05:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-27T20:29:24.102644241-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T20:29:25.34197548-05:00","level":"INFO","msg":"stream: closing","id":"saving_data"}
+{"time":"2024-11-27T20:29:25.342012434-05:00","level":"INFO","msg":"handler: closed","stream_id":"saving_data"}
+{"time":"2024-11-27T20:29:25.34202825-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"saving_data"}
+{"time":"2024-11-27T20:29:25.342073836-05:00","level":"INFO","msg":"sender: closed","stream_id":"saving_data"}
+{"time":"2024-11-27T20:29:25.342145488-05:00","level":"INFO","msg":"stream: closed","id":"saving_data"}

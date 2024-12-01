@@ -1,0 +1,26 @@
+{"time":"2024-11-27T12:21:13.517781967-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-27T12:21:13.517812589-05:00","level":"INFO","msg":"created symlink","path":"/home/danfossautonomypc/segmentation/wandb_segment/wandb/run-20241127_122113-wandb_unet_v3/logs/debug-core.log"}
+{"time":"2024-11-27T12:21:13.632470378-05:00","level":"INFO","msg":"created new stream","id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:21:13.632535714-05:00","level":"INFO","msg":"stream: started","id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:21:13.632670102-05:00","level":"INFO","msg":"sender: started","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:21:13.632673282-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:21:13.632754069-05:00","level":"INFO","msg":"handler: started","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:21:13.861774487-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T12:21:17.911183505-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:19.353065642-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:20.801740535-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:21.094585337-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:27.417937442-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:28.989848052-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:30.579990723-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:30.795102406-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:37.482396153-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:21:39.143791285-05:00","level":"INFO","msg":"sender: sendAlert: notified scriptable run alert","data":{"notifyScriptableRunAlert":{"success":true}}}
+{"time":"2024-11-27T12:23:14.833368234-05:00","level":"INFO","msg":"stream: closing","id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:23:14.833414867-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T12:23:14.834253146-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T12:23:20.26362707-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T12:23:20.386584011-05:00","level":"INFO","msg":"handler: closed","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:23:20.386648494-05:00","level":"INFO","msg":"sender: closed","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:23:20.386630581-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T12:23:20.386748627-05:00","level":"INFO","msg":"stream: closed","id":"wandb_unet_v3"}

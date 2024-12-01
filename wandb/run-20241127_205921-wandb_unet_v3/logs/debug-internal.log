@@ -1,0 +1,16 @@
+{"time":"2024-11-27T20:59:21.296733085-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-27T20:59:21.296747118-05:00","level":"INFO","msg":"created symlink","path":"/home/danfossautonomypc/segmentation/wandb_segment/wandb/run-20241127_205921-wandb_unet_v3/logs/debug-core.log"}
+{"time":"2024-11-27T20:59:21.409581212-05:00","level":"INFO","msg":"created new stream","id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:21.409701918-05:00","level":"INFO","msg":"stream: started","id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:21.409746575-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:21.40981744-05:00","level":"INFO","msg":"sender: started","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:21.409840384-05:00","level":"INFO","msg":"handler: started","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:21.580526365-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T20:59:26.219672152-05:00","level":"INFO","msg":"stream: closing","id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:26.219729496-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T20:59:26.220604078-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T20:59:27.932589335-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T20:59:28.331621199-05:00","level":"INFO","msg":"handler: closed","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:28.331678838-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:28.331696943-05:00","level":"INFO","msg":"sender: closed","stream_id":"wandb_unet_v3"}
+{"time":"2024-11-27T20:59:28.331794559-05:00","level":"INFO","msg":"stream: closed","id":"wandb_unet_v3"}

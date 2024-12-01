@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 12, in <module>
+    from src.Camvid import *
+  File "/home/danfossautonomypc/segmentation/wandb_segment/src/Camvid.py", line 8, in <module>
+    from src.config import config
+  File "/home/danfossautonomypc/segmentation/wandb_segment/src/config.py", line 6, in <module>
+    from increment_refdata_use import get_data
+ImportError: cannot import name 'get_data' from 'increment_refdata_use' (/home/danfossautonomypc/segmentation/wandb_segment/increment_refdata_use.py)
+Traceback (most recent call last):
+  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 12, in <module>
+    from src.Camvid import *
+  File "/home/danfossautonomypc/segmentation/wandb_segment/src/Camvid.py", line 8, in <module>
+    from src.config import config
+  File "/home/danfossautonomypc/segmentation/wandb_segment/src/config.py", line 6, in <module>
+    from increment_refdata_use import get_data
+ImportError: cannot import name 'get_data' from 'increment_refdata_use' (/home/danfossautonomypc/segmentation/wandb_segment/increment_refdata_use.py)

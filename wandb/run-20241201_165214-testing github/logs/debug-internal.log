@@ -1,0 +1,19 @@
+{"time":"2024-12-01T16:52:14.275154306-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-01T16:52:14.275203049-05:00","level":"INFO","msg":"created symlink","path":"/home/danfossautonomypc/segmentation/wandb_segment/wandb/run-20241201_165214-testing github/logs/debug-core.log"}
+{"time":"2024-12-01T16:52:14.389164498-05:00","level":"INFO","msg":"created new stream","id":"testing github"}
+{"time":"2024-12-01T16:52:14.389215673-05:00","level":"INFO","msg":"stream: started","id":"testing github"}
+{"time":"2024-12-01T16:52:14.389328425-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"testing github"}
+{"time":"2024-12-01T16:52:14.389339289-05:00","level":"INFO","msg":"handler: started","stream_id":"testing github"}
+{"time":"2024-12-01T16:52:14.38933296-05:00","level":"INFO","msg":"sender: started","stream_id":"testing github"}
+{"time":"2024-12-01T16:52:14.73347275-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T16:52:19.167676371-05:00","level":"INFO","msg":"stream: closing","id":"testing github"}
+{"time":"2024-12-01T16:52:19.167757283-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T16:52:19.168621016-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T16:52:19.248438384-05:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-01T16:52:19.248465803-05:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-01T16:52:19.248476589-05:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-01T16:52:19.569636569-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T16:52:19.687391848-05:00","level":"INFO","msg":"handler: closed","stream_id":"testing github"}
+{"time":"2024-12-01T16:52:19.687441605-05:00","level":"INFO","msg":"sender: closed","stream_id":"testing github"}
+{"time":"2024-12-01T16:52:19.687434232-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"testing github"}
+{"time":"2024-12-01T16:52:19.687559184-05:00","level":"INFO","msg":"stream: closed","id":"testing github"}

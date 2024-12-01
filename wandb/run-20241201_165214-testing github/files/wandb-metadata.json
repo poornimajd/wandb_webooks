@@ -1,0 +1,55 @@
+{
+  "os": "Linux-6.8.0-49-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "startedAt": "2024-12-01T21:52:14.271333Z",
+  "args": [
+    "--project",
+    "segment",
+    "--name",
+    "test model github",
+    "--id",
+    "testing github",
+    "--resume",
+    "allow",
+    "--model_artifact",
+    "poornima-dharamdasani-danfoss/segment/8s.pt:v1",
+    "--dataset_artifact",
+    "poornima-dharamdasani-danfoss/segment/test-dataset:v2",
+    "--label_colors_path",
+    "./label_colors.txt"
+  ],
+  "program": "/home/danfossautonomypc/segmentation/wandb_segment/test_for_github.py",
+  "codePath": "test_for_github.py",
+  "email": "poornima.dharamdasani@danfoss.com",
+  "root": "/home/danfossautonomypc/segmentation/wandb_segment",
+  "host": "danfossautonomypc-System-Product-Name",
+  "username": "danfossautonomypc",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "test_for_github.py",
+  "cpu_count": 18,
+  "cpu_count_logical": 36,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "802021867520"
+    }
+  },
+  "memory": {
+    "total": "67064664064"
+  },
+  "cpu": {
+    "count": 18,
+    "countLogical": 36
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

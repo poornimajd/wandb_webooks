@@ -1,0 +1,29 @@
+The device being used is: cuda
+[34m[1mwandb[0m: [32m[41mERROR[0m Attempted to change value of key "learning_rate" from 0.001 to 0.005
+[34m[1mwandb[0m: [32m[41mERROR[0m If you really want to do this, pass allow_val_change=True to config.update()
+Traceback (most recent call last):
+  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 47, in <module>
+    wandb.config.update({"learning_rate": lr, "batch_size": batch, "epochs": epochs, "input_size":input_size})
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 187, in update
+    sanitized = self._update(d, allow_val_change)
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 180, in _update
+    sanitized = self._sanitize_dict(
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 267, in _sanitize_dict
+    k, v = self._sanitize(k, v, allow_val_change)
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 288, in _sanitize
+    raise config_util.ConfigError(
+wandb.sdk.lib.config_util.ConfigError: Attempted to change value of key "learning_rate" from 0.001 to 0.005
+If you really want to do this, pass allow_val_change=True to config.update()
+Traceback (most recent call last):
+  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 47, in <module>
+    wandb.config.update({"learning_rate": lr, "batch_size": batch, "epochs": epochs, "input_size":input_size})
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 187, in update
+    sanitized = self._update(d, allow_val_change)
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 180, in _update
+    sanitized = self._sanitize_dict(
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 267, in _sanitize_dict
+    k, v = self._sanitize(k, v, allow_val_change)
+  File "/home/danfossautonomypc/.local/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 288, in _sanitize
+    raise config_util.ConfigError(
+wandb.sdk.lib.config_util.ConfigError: Attempted to change value of key "learning_rate" from 0.001 to 0.005
+If you really want to do this, pass allow_val_change=True to config.update()
