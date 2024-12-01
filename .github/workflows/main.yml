@@ -1,0 +1,46 @@
+name: W&B Testing Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    # Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # Set W&B API key
+    - name: Set W&B API key
+      env:
+        WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }} # Add this key to your repo secrets
+      run: echo "W&B API key set."
+
+    # Run your script
+    - name: Run W&B testing script
+      run: |
+        python script.py \
+          --project "segment" \
+          --name "test model" \
+          --id "testing" \
+          --resume "allow" \
+          --model_artifact "poornima-dharamdasani-danfoss/segment/8s.pt:v1" \
+          --dataset_artifact "poornima-dharamdasani-danfoss/segment/test-dataset:v2" \
+          --label_colors_path "./label_colors.txt"
