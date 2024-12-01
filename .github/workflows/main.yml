@@ -36,10 +36,10 @@ jobs:
     # Run your script
     - name: Run W&B testing script
       run: |
-        python script.py \
+        python test_for_github.py \
           --project "segment" \
-          --name "test model" \
-          --id "testing" \
+          --name "test model github workflow" \
+          --id "testing workflow" \
           --resume "allow" \
           --model_artifact "poornima-dharamdasani-danfoss/segment/8s.pt:v1" \
           --dataset_artifact "poornima-dharamdasani-danfoss/segment/test-dataset:v2" \
