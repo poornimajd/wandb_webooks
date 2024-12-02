@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 30, in <module>
-    config.get_artifact(artifact)
-AttributeError: type object 'config' has no attribute 'get_artifact'
-Traceback (most recent call last):
-  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 30, in <module>
-    config.get_artifact(artifact)
-AttributeError: type object 'config' has no attribute 'get_artifact'

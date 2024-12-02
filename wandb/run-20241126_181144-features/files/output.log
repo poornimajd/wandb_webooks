@@ -1,9 +1,0 @@
-The device being used is: cuda
-Traceback (most recent call last):
-  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 191, in <module>
-    train_images_dir, val_images_dir, train_masks_dir, val_masks_dir, train_images_list, val_images_list, train_masks_list, val_masks_list = get_data(artifact)
-TypeError: get_data() takes 0 positional arguments but 1 was given
-Traceback (most recent call last):
-  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 191, in <module>
-    train_images_dir, val_images_dir, train_masks_dir, val_masks_dir, train_images_list, val_images_list, train_masks_list, val_masks_list = get_data(artifact)
-TypeError: get_data() takes 0 positional arguments but 1 was given

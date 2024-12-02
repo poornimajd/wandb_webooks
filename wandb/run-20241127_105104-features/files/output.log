@@ -1,9 +1,0 @@
-The device being used is: cuda
-Traceback (most recent call last):
-  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 79, in <module>
-    label_codes, label_names = zip(*[parse_code(l) for l in open(source_folder+"/label_colors.txt")])
-FileNotFoundError: [Errno 2] No such file or directory: '/home/danfossautonomypc/segmentation/mount/system_b/segment_data/CamSeq01/label_colors.txt'
-Traceback (most recent call last):
-  File "/home/danfossautonomypc/segmentation/wandb_segment/segmentation_v2_torch.py", line 79, in <module>
-    label_codes, label_names = zip(*[parse_code(l) for l in open(source_folder+"/label_colors.txt")])
-FileNotFoundError: [Errno 2] No such file or directory: '/home/danfossautonomypc/segmentation/mount/system_b/segment_data/CamSeq01/label_colors.txt'
