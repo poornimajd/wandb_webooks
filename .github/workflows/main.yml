@@ -31,10 +31,13 @@ jobs:
     - name: Set W&B API key
       env:
         WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }} # Add this key to your repo secrets
-      run: echo "W&B API key set."
+      run: |
+        echo "WANDB_API_KEY=$WANDB_API_KEY" > .env
 
     # Run your script
     - name: Run W&B testing script
+      env:
+        WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
       run: |
         python test_for_github.py \
           --project "segment" \
