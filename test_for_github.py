@@ -20,7 +20,8 @@ device = CONFIG.device
 import wandb
 # from segmentation_v2_torch import get_data
 
-wandb.login()
+# wandb.login()
+wandb.login(key=os.getenv("WANDB_API_KEY"))
 
 if __name__ == "__main__":
 
