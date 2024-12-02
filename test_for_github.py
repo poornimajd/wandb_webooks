@@ -15,7 +15,7 @@ CONFIG = config()
 batch = CONFIG.batch
 input_size = CONFIG.input_size
 # load_model_pth = CONFIG.load_model
-device = CONFIG.device
+# device = CONFIG.device
 
 import wandb
 # from segmentation_v2_torch import get_data
@@ -58,6 +58,8 @@ if __name__ == "__main__":
     testloader = torch.utils.data.DataLoader(valid_data, batch_size=batch, shuffle=True)
 
     model =UNet(n_filters=32, bn=True, dilation_rate=1)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    # model.to(device)
     model = model.to(device)
     criterion = FocalLoss()
 
