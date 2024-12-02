@@ -40,7 +40,7 @@ if __name__ == "__main__":
     run.log_code(
     ".",
     include_fn=lambda path: path.endswith(".py") or path.endswith(".ipynb"),
-    exclude_fn=lambda path, root: (os.path.relpath(path, root).startswith("wandb/") or os.path.relpath(path, root).startswith("git/"))
+    exclude_fn=lambda path, root: (os.path.relpath(path, root).startswith("wandb/") or os.path.relpath(path, root).startswith("data/"))
         )
 
     columns = ["id", "image", "gt masks", "pred masks"]
