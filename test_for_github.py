@@ -30,8 +30,13 @@ if __name__ == "__main__":
     parser.add_argument("--model_artifact", type=str, required=True, help="Model artifact reference")
     parser.add_argument("--label_colors_path", type=str, required=True, help="Path to label colors file")
     args = parser.parse_args()
-
-    run = wandb.init(settings=wandb.Settings(start_method="fork"), project=args.project) #give these aas argumentys in workflow.
+    def sanitize_name(name):
+        """
+        Remove all '-' characters from the given name.
+        """
+        return name.replace('-', '')
+    project_name = sanitize_name(args.project)
+    run = wandb.init(settings=wandb.Settings(start_method="fork"), project=project_name) #give these aas argumentys in workflow.
 
     columns = ["id", "image", "gt masks", "pred masks"]
     test_table = wandb.Table(columns=columns)
