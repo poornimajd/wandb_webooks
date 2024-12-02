@@ -40,9 +40,5 @@ jobs:
       run: |
         python test_for_github.py \
           --project "${{ github.event.client_payload.project_name }}" \
-          --name "${{ github.event.client_payload.run_name }}" \
-          --id "${{ github.event.client_payload.run_id }}" \
-          --resume "allow" \
-          --model_artifact "${{ github.event.client_payload.model_artifact }}" \
-          --dataset_artifact "${{ github.event.client_payload.dataset_artifact }}" \
+          --model_artifact "${{ github.event.client_payload.artifact_version_string }}" \
           --label_colors_path "./label_colors.txt"
