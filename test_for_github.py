@@ -27,21 +27,17 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Run W&B testing workflow.")
     parser.add_argument("--project", type=str, required=True, help="W&B project name")
-    parser.add_argument("--name", type=str, required=True, help="Run name for W&B")
-    parser.add_argument("--id", type=str, required=True, help="Run ID for W&B")
-    parser.add_argument("--resume", type=str, required=True, help="Resume mode for W&B")
     parser.add_argument("--model_artifact", type=str, required=True, help="Model artifact reference")
-    parser.add_argument("--dataset_artifact", type=str, required=True, help="Dataset artifact reference")
     parser.add_argument("--label_colors_path", type=str, required=True, help="Path to label colors file")
     args = parser.parse_args()
 
-    run = wandb.init(settings=wandb.Settings(start_method="fork"), project=args.project, name=args.name, id=args.id, resume=args.resume) #give these aas argumentys in workflow.
+    run = wandb.init(settings=wandb.Settings(start_method="fork"), project=args.project) #give these aas argumentys in workflow.
 
     columns = ["id", "image", "gt masks", "pred masks"]
     test_table = wandb.Table(columns=columns)
 
     # 
-    artifact = run.use_artifact(args.dataset_artifact, type='dataset')
+    artifact = run.use_artifact('poornima-dharamdasani-danfoss/segment/test-dataset:v2', type='dataset')
     valid_dir = artifact.download()
     # print(valid_dir)
     val_images_dir = os.path.join(valid_dir,'frames')
