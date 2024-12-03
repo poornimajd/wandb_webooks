@@ -42,7 +42,7 @@ def Validate(model, validloader, criterion, valid_loss_min, device, model_path,e
 
 
 def Test_eval(model, testloader, criterion,device,id2code,model_dir):
-	model.load_state_dict(torch.load(model_dir))
+	model.load_state_dict(torch.load(model_dir, map_location=device))
 	model.eval()
 	test_loss=0.0
 	imgs, masks, preds=[],[],[]
