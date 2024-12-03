@@ -40,7 +40,7 @@ jobs:
       env:
         WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
       run: |
-        python webhook_script.py \
+        python webook_script.py \
           --project "${{ github.event.client_payload.project_name }}" \
           --model_artifact "${{ github.event.client_payload.artifact_version_string }}" \
           --label_colors_path "./label_colors.txt"
