@@ -13,6 +13,8 @@ jobs:
     # Checkout code
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        ref: example
 
     # Set up Python
     - name: Set up Python
@@ -38,7 +40,7 @@ jobs:
       env:
         WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
       run: |
-        python test_for_github.py \
+        python webhook_script.py \
           --project "${{ github.event.client_payload.project_name }}" \
           --model_artifact "${{ github.event.client_payload.artifact_version_string }}" \
           --label_colors_path "./label_colors.txt"
